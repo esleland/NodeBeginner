@@ -15,7 +15,7 @@ function start(route, handle) {
 	}	
 	
 	http.createServer(onRequest).listen(8888);
-	console.log("Server has started. Cool yer fuckin jets.");
+	console.log("Server has started. Cool yer fuckin jets, Jerko.");
 }
 
 exports.start = start;
